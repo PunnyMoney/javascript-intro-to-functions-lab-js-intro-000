@@ -13,6 +13,9 @@ function sayHiToGrandma(string) {
     return "I love you, too.";
   }
 }
-console.log(shout('hello'));
-console.log(whisper('Hello'));
-console.log(sayHiToGrandma('hi grandma'));
+function logShout(string) {
+  console.log(string.toUpperCase());
+}
+function logWhisper(string) {
+  console.log(string.toLowerCase());
+}
